@@ -8,8 +8,6 @@ import user from '../models/user.js'
 import addUserRoute from "./routes/user/add-user.js"
 import editUserRoute from './routes/user/edit-user.js'
 import deleteUserRoute from './routes/user/delete-user.js'
-// blog route  
-//mport postBlogRoute from './routes/blog/postBlog.js'
 const PORT = process.env.PORT || 3000
 
 //middleware
